@@ -6,11 +6,11 @@ Source for build environment:
 
 Source for binary blobs and includes to use them:
 * https://github.com/rockchip-linux/libmali
+* You only need the lib and include directories.  Copy them to /usr/local.
 
 Source to use kmsdrm on the mali GPU:
 * https://github.com/rockchip-linux/libdrm-rockchip
 
-You only need the lib and include directories.  Copy them to /usr/local.
 
 This repository contains:
 1) A copy of the kconfig used to make the 4.14.14 kernel capable of acceleration on the tinkerboard.  For the full source, consult my source listed above (the build environment).  The kernel supports up to libMali ABI 14.
